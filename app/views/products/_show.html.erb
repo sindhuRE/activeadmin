@@ -1,0 +1,16 @@
+<div class="modal-header">
+<h3>Show Product</h3>
+</div>
+<div class="modal-body">
+<p>
+  <strong>Name:</strong>
+  <%= @product.name %>
+</p>  
+<p>
+  <strong>Price:</strong>
+  <%= @product.price %>
+</p> 
+</div>
+<div class="modal-footer">
+  <%= link_to "Back", "products_path", class: "btn", data: {dismiss: "modal"} %>
+</div> 
